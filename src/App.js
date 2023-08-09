@@ -1,3 +1,4 @@
+import ItemListContainer from "./components/ItemListContainer";
 import  Navbar  from "./components/NavBar";
 
 
@@ -6,7 +7,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <p>hola mundo </p>
+      <ItemListContainer greeting="Bienvenidos a mi tienda virtual" />
     
     </>
     

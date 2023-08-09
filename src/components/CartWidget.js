@@ -3,7 +3,9 @@ import React from 'react'
 function CartWidget() {
   return (
     <>
-        <i><img src="" alt="" /></i>
+        <span className="material-symbols-outlined">
+          shopping_cart
+        </span>
         <p>3</p>
 
     </>
